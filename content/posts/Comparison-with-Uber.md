@@ -12,4 +12,4 @@ title: "Comparison Between Uber and Taxis"
 </script>
 
 # mannganeufneiaunf
-<iframe src = {{< baseurl >}}/peter.html frameborder="0" scrolling="no" onload="resizeIframe(this)"> </iframe>
+<iframe src = {{< baseurl >}}/peter.html width = "100%" frameborder="0" scrolling="no" onload="resizeIframe(this)"> </iframe>
