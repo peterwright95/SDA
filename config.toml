@@ -1,6 +1,6 @@
 baseURL = "https://peterwright95.github.io/SDA"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "SDA Project - Taxi Dataset"
 theme = "ananke"
 publishDir = "docs"
 [markup.goldmark.renderer]

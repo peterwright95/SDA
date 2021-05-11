@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on SDA Project - Taxi Dataset</title>
     <link>https://peterwright95.github.io/SDA/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on SDA Project - Taxi Dataset</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Apr 2017 11:13:32 -0400</lastBuildDate><atom:link href="https://peterwright95.github.io/SDA/posts/index.xml" rel="self" type="application/rss+xml" />
