@@ -40,7 +40,7 @@
 <meta itemprop="name" content="Comparison Between Uber and Taxis">
 <meta itemprop="description" content="A comparison of the Uber Dataset and Taxis ranging from ... to ..."><meta itemprop="datePublished" content="2017-04-10T11:00:59-04:00" />
 <meta itemprop="dateModified" content="2017-04-10T11:00:59-04:00" />
-<meta itemprop="wordCount" content="6">
+<meta itemprop="wordCount" content="107">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Comparison Between Uber and Taxis"/>
 <meta name="twitter:description" content="A comparison of the Uber Dataset and Taxis ranging from ... to ..."/>
@@ -151,7 +151,57 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Nothing to say as for now</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+<pre><code>    &lt;script type=&quot;text/javascript&quot;&gt;
+        Bokeh.set_log_level(&quot;info&quot;);
+    &lt;/script&gt;
+
+
+          &lt;div class=&quot;bk-root&quot; id=&quot;9752a1c0-d7ef-4c69-a52a-12606ac4970c&quot; data-root-id=&quot;1001&quot;&gt;&lt;/div&gt;
+        
+      
+    
+  
+  
+    &lt;script type=&quot;application/json&quot; id=&quot;1127&quot;&gt;
+      {&quot;420b0d14-dff2-4ce8-97ca-e26a0519c424&quot;:{&quot;roots&quot;:{&quot;references&quot;:[{&quot;attributes&quot;:{},&quot;id&quot;:&quot;1008&quot;,&quot;type&quot;:&quot;LinearScale&quot;},{&quot;attributes&quot;:{&quot;below&quot;:[{&quot;id&quot;:&quot;1010&quot;}],&quot;center&quot;:[{&quot;id&quot;:&quot;1013&quot;},{&quot;id&quot;:&quot;1017&quot;}],&quot;left&quot;:[{&quot;id&quot;:&quot;1014&quot;}],&quot;renderers&quot;:[{&quot;id&quot;:&quot;1035&quot;}],&quot;title&quot;:{&quot;id&quot;:&quot;1037&quot;},&quot;toolbar&quot;:{&quot;id&quot;:&quot;1025&quot;},&quot;x_range&quot;:{&quot;id&quot;:&quot;1002&quot;},&quot;x_scale&quot;:{&quot;id&quot;:&quot;1006&quot;},&quot;y_range&quot;:{&quot;id&quot;:&quot;1004&quot;},&quot;y_scale&quot;:{&quot;id&quot;:&quot;1008&quot;}},&quot;id&quot;:&quot;1001&quot;,&quot;subtype&quot;:&quot;Figure&quot;,&quot;type&quot;:&quot;Plot&quot;},{&quot;attributes&quot;:{&quot;formatter&quot;:{&quot;id&quot;:&quot;1042&quot;},&quot;ticker&quot;:{&quot;id&quot;:&quot;1011&quot;}},&quot;id&quot;:&quot;1010&quot;,&quot;type&quot;:&quot;LinearAxis&quot;},{&quot;attributes&quot;:{},&quot;id&quot;:&quot;1042&quot;,&quot;type&quot;:&quot;BasicTickFormatter&quot;},{&quot;attributes&quot;:{&quot;fill_color&quot;:{&quot;value&quot;:&quot;#1f77b4&quot;},&quot;line_color&quot;:{&quot;value&quot;:&quot;#1f77b4&quot;},&quot;x&quot;:{&quot;field&quot;:&quot;x&quot;},&quot;y&quot;:{&quot;field&quot;:&quot;y&quot;}},&quot;id&quot;:&quot;1033&quot;,&quot;type&quot;:&quot;Circle&quot;},{&quot;attributes&quot;:{},&quot;id&quot;:&quot;1004&quot;,&quot;type&quot;:&quot;DataRange1d&quot;},{&quot;attributes&quot;:{&quot;data_source&quot;:{&quot;id&quot;:&quot;1032&quot;},&quot;glyph&quot;:{&quot;id&quot;:&quot;1033&quot;},&quot;hover_glyph&quot;:null,&quot;muted_glyph&quot;:null,&quot;nonselection_glyph&quot;:{&quot;id&quot;:&quot;1034&quot;},&quot;selection_glyph&quot;:null,&quot;view&quot;:{&quot;id&quot;:&quot;1036&quot;}},&quot;id&quot;:&quot;1035&quot;,&quot;type&quot;:&quot;GlyphRenderer&quot;},{&quot;attributes&quot;:{&quot;data&quot;:{&quot;x&quot;:[1,2],&quot;y&quot;:[3,4]},&quot;selected&quot;:{&quot;id&quot;:&quot;1045&quot;},&quot;selection_policy&quot;:{&quot;id&quot;:&quot;1044&quot;}},&quot;id&quot;:&quot;1032&quot;,&quot;type&quot;:&quot;ColumnDataSource&quot;},{&quot;attributes&quot;:{},&quot;id&quot;:&quot;1002&quot;,&quot;type&quot;:&quot;DataRange1d&quot;},{&quot;attributes&quot;:{},&quot;id&quot;:&quot;1023&quot;,&quot;type&quot;:&quot;HelpTool&quot;},{&quot;attributes&quot;:{&quot;axis&quot;:{&quot;id&quot;:&quot;1010&quot;},&quot;ticker&quot;:null},&quot;id&quot;:&quot;1013&quot;,&quot;type&quot;:&quot;Grid&quot;},{&quot;attributes&quot;:{},&quot;id&quot;:&quot;1006&quot;,&quot;type&quot;:&quot;LinearScale&quot;},{&quot;attributes&quot;:{&quot;axis&quot;:{&quot;id&quot;:&quot;1014&quot;},&quot;dimension&quot;:1,&quot;ticker&quot;:null},&quot;id&quot;:&quot;1017&quot;,&quot;type&quot;:&quot;Grid&quot;},{&quot;attributes&quot;:{&quot;text&quot;:&quot;&quot;},&quot;id&quot;:&quot;1037&quot;,&quot;type&quot;:&quot;Title&quot;},{&quot;attributes&quot;:{},&quot;id&quot;:&quot;1015&quot;,&quot;type&quot;:&quot;BasicTicker&quot;},{&quot;attributes&quot;:{&quot;bottom_units&quot;:&quot;screen&quot;,&quot;fill_alpha&quot;:0.5,&quot;fill_color&quot;:&quot;lightgrey&quot;,&quot;left_units&quot;:&quot;screen&quot;,&quot;level&quot;:&quot;overlay&quot;,&quot;line_alpha&quot;:1.0,&quot;line_color&quot;:&quot;black&quot;,&quot;line_dash&quot;:[4,4],&quot;line_width&quot;:2,&quot;right_units&quot;:&quot;screen&quot;,&quot;top_units&quot;:&quot;screen&quot;},&quot;id&quot;:&quot;1024&quot;,&quot;type&quot;:&quot;BoxAnnotation&quot;},{&quot;attributes&quot;:{&quot;fill_alpha&quot;:{&quot;value&quot;:0.1},&quot;fill_color&quot;:{&quot;value&quot;:&quot;#1f77b4&quot;},&quot;line_alpha&quot;:{&quot;value&quot;:0.1},&quot;line_color&quot;:{&quot;value&quot;:&quot;#1f77b4&quot;},&quot;x&quot;:{&quot;field&quot;:&quot;x&quot;},&quot;y&quot;:{&quot;field&quot;:&quot;y&quot;}},&quot;id&quot;:&quot;1034&quot;,&quot;type&quot;:&quot;Circle&quot;},{&quot;attributes&quot;:{},&quot;id&quot;:&quot;1044&quot;,&quot;type&quot;:&quot;UnionRenderers&quot;},{&quot;attributes&quot;:{},&quot;id&quot;:&quot;1019&quot;,&quot;type&quot;:&quot;WheelZoomTool&quot;},{&quot;attributes&quot;:{&quot;active_drag&quot;:&quot;auto&quot;,&quot;active_inspect&quot;:&quot;auto&quot;,&quot;active_multi&quot;:null,&quot;active_scroll&quot;:&quot;auto&quot;,&quot;active_tap&quot;:&quot;auto&quot;,&quot;tools&quot;:[{&quot;id&quot;:&quot;1018&quot;},{&quot;id&quot;:&quot;1019&quot;},{&quot;id&quot;:&quot;1020&quot;},{&quot;id&quot;:&quot;1021&quot;},{&quot;id&quot;:&quot;1022&quot;},{&quot;id&quot;:&quot;1023&quot;}]},&quot;id&quot;:&quot;1025&quot;,&quot;type&quot;:&quot;Toolbar&quot;},{&quot;attributes&quot;:{},&quot;id&quot;:&quot;1045&quot;,&quot;type&quot;:&quot;Selection&quot;},{&quot;attributes&quot;:{},&quot;id&quot;:&quot;1018&quot;,&quot;type&quot;:&quot;PanTool&quot;},{&quot;attributes&quot;:{},&quot;id&quot;:&quot;1011&quot;,&quot;type&quot;:&quot;BasicTicker&quot;},{&quot;attributes&quot;:{&quot;source&quot;:{&quot;id&quot;:&quot;1032&quot;}},&quot;id&quot;:&quot;1036&quot;,&quot;type&quot;:&quot;CDSView&quot;},{&quot;attributes&quot;:{&quot;overlay&quot;:{&quot;id&quot;:&quot;1024&quot;}},&quot;id&quot;:&quot;1020&quot;,&quot;type&quot;:&quot;BoxZoomTool&quot;},{&quot;attributes&quot;:{},&quot;id&quot;:&quot;1021&quot;,&quot;type&quot;:&quot;SaveTool&quot;},{&quot;attributes&quot;:{&quot;formatter&quot;:{&quot;id&quot;:&quot;1040&quot;},&quot;ticker&quot;:{&quot;id&quot;:&quot;1015&quot;}},&quot;id&quot;:&quot;1014&quot;,&quot;type&quot;:&quot;LinearAxis&quot;},{&quot;attributes&quot;:{},&quot;id&quot;:&quot;1022&quot;,&quot;type&quot;:&quot;ResetTool&quot;},{&quot;attributes&quot;:{},&quot;id&quot;:&quot;1040&quot;,&quot;type&quot;:&quot;BasicTickFormatter&quot;}],&quot;root_ids&quot;:[&quot;1001&quot;]},&quot;title&quot;:&quot;Bokeh Application&quot;,&quot;version&quot;:&quot;2.2.3&quot;}}
+    &lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+      (function() {
+        var fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+                
+              var docs_json = document.getElementById('1127').textContent;
+              var render_items = [{&quot;docid&quot;:&quot;420b0d14-dff2-4ce8-97ca-e26a0519c424&quot;,&quot;root_ids&quot;:[&quot;1001&quot;],&quot;roots&quot;:{&quot;1001&quot;:&quot;9752a1c0-d7ef-4c69-a52a-12606ac4970c&quot;}}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+            
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                var attempts = 0;
+                var timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts &gt; 100) {
+                      clearInterval(timer);
+                      console.log(&quot;Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing&quot;);
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != &quot;loading&quot;) fn();
+        else document.addEventListener(&quot;DOMContentLoaded&quot;, fn);
+      })();
+    &lt;/script&gt;</code></pre>
 <ul class="pa0">
   
 </ul>
