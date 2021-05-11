@@ -1,4 +1,4 @@
-baseURL = "https://peterwright95.github.io/SDA/"
+baseURL = "https://peterwright95.github.io/SDA"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "ananke"
