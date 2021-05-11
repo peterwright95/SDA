@@ -7,4 +7,4 @@ title: "Comparison Between Uber and Taxis"
 
 
 # mannganeufneiaunf
-<iframe src="/peter.html"> </iframe>
+<iframe src = {{< baseurl >}}/peter.html> </iframe>
