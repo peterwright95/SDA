@@ -5,6 +5,11 @@ featured_image: "/images/taxi-vs-uber.jpeg"
 title: "Comparison Between Uber and Taxis"
 ---
 
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+</script>
 
 # mannganeufneiaunf
-<iframe src = {{< baseurl >}}/peter.html style="position: relative; height: 100%; width: 100%; border: none"> </iframe>
+<iframe src = {{< baseurl >}}/peter.html frameborder="0" scrolling="no" onload="resizeIframe(this)"> </iframe>
