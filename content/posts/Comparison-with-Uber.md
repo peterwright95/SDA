@@ -11,5 +11,5 @@ title: "Comparison Between Uber and Taxis"
   }
 </script>
 
-# mannganeufneiaunf
-<iframe src = {{< baseurl >}}/peter.html style="width: 616px; height: 616px;" frameborder="0" scrolling="no" onload="resizeIframe(this)"> </iframe>
+Bokeh made by Santy
+<iframe src = {{< baseurl >}}/uberplot.html style="width: 616px; height: 616px;" frameborder="0" scrolling="no" onload="resizeIframe(this)"> </iframe>
