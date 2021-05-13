@@ -6,4 +6,4 @@ publishDir = "docs"
 [markup.goldmark.renderer]
     unsafe = true
 [[params.customCSS]]
- href = "{{< baseurl >}}/css/w3.css"
+ href = "/css/w3.css"
