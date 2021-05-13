@@ -50,10 +50,9 @@ If it would have been possible to also obtain data along a few years, the phenom
 
 To change a bit from those series of time distributions in bar figures, the distributions in the next figure are described with lines which can be visualize even showing several of them. Additionally, the figures are interactive. Being possible to select the distributions that one would like to visualize.
 
-<iframe src = {{< baseurl >}}/html/Lineplot_taxi.html style="width: 900px; height: 600px;" frameborder="0" scrolling="no" onload="resizeIframe(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
+<iframe src = {{< baseurl >}}/html/Lineplot_taxi.html style="width: 900px; height: 600px; left:-140px" frameborder="0" scrolling="no" onload="resizeIframe(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
 
-<iframe src = {{< baseurl >}}/html/Lineplot_uber.html scrolling="no" frameborder="0" height="100%" width="100%" style="position:absolute; clip:rect(190px,1100px,800px,250px);
-            top:-160px; left:-160px;" alt="Figure 5 - Hourly Distributions by Day Uber"> </iframe>
+<iframe src = {{< baseurl >}}/html/Lineplot_uber.html frameborder="0" style="position:absolute; clip:rect(190px,1100px,800px,250px) width:100% height:100% top:-160px; left:-160px;" alt="Figure 5 - Hourly Distributions by Day Uber"> </iframe>
 
 
 (The purpose of this figures is to pinpoint the changes between the hourly distribution on different days. The big difference can be seen between weekdays and weekend days. On weekends the peek between 8:00 and 9:00 disappear and the peek at 19:00 decrease a bit. However, the demand of transport increase on the nights from Friday to Saturday and Saturday to Sunday increase since the people go and return from the party areas.) maybe to the general taxi part.
