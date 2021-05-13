@@ -21,6 +21,14 @@ title: "Comparison Between Uber and Taxis"
 }
 </script>
 
+<script>
+  iframe {
+  width: auto;
+  height: 100%;
+  max-height: 20vh;
+}
+</script>
+
 There has been debate about the different ride-hailing method in New York, since Uber arrives to the city. One of the most critical topics was about traffic congestion in the city. That concluded in a case study carried out by NYC Taxi & Limousine Commission (TLC) which thanks FiveThirtyEigh and their request regarding the law of Freedom of Information, the corresponding Uber data used for the study became public. Therefore, giving us the opportunity of analysing NYC taxis with respect to uber and highlight the underlying differences between this two similar but different transport methods.
 
 (First, a little explanation about the data. The taxi data was filtered for the same year, months present in the uber dataset and then down sampled to the same number of pickups. Therefore, balancing the dataset to be able to differentiate between the different behaviour of both ride-hailing methods. Uber dataset is composed of 3 features, latitude longitude and pickup time. Therefore, we focus on those columns also on taxis.) BAAAH TECHNICAL
@@ -52,7 +60,7 @@ To change a bit from those series of time distributions in bar figures, the dist
 
 <iframe src = {{< baseurl >}}/html/Lineplot_taxi.html style="width: 616px; height: 900px;" frameborder="0" scrolling="no" onload="resizeIframe(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
 
-<iframe src = {{< baseurl >}}/html/Lineplot_uber.html style="width: 616px; height: 900px;" frameborder="0" scrolling="no" onload="resizeIframe(this)"alt="Figure 5 - Hourly Distributions by Day Uber"> </iframe>
+<iframe src = {{< baseurl >}}/html/Lineplot_uber.html "alt="Figure 5 - Hourly Distributions by Day Uber"> </iframe>
 
 
 (The purpose of this figures is to pinpoint the changes between the hourly distribution on different days. The big difference can be seen between weekdays and weekend days. On weekends the peek between 8:00 and 9:00 disappear and the peek at 19:00 decrease a bit. However, the demand of transport increase on the nights from Friday to Saturday and Saturday to Sunday increase since the people go and return from the party areas.) maybe to the general taxi part.
