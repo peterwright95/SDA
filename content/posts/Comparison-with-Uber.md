@@ -23,7 +23,7 @@ title: "Comparison Between Uber and Taxis"
 
 <script>
   iframe {
-  width: auto;
+  width: 100%;
   height: 100%;
   max-height: 20vh;
 }
@@ -60,7 +60,8 @@ To change a bit from those series of time distributions in bar figures, the dist
 
 <iframe src = {{< baseurl >}}/html/Lineplot_taxi.html style="width: 616px; height: 900px;" frameborder="0" scrolling="no" onload="resizeIframe(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
 
-<iframe src = {{< baseurl >}}/html/Lineplot_uber.html "alt="Figure 5 - Hourly Distributions by Day Uber"> </iframe>
+<iframe src = {{< baseurl >}}/html/Lineplot_uber.html scrolling="no" frameborder="0" height="100%" width="100%" style="position:absolute; clip:rect(190px,1100px,800px,250px);
+            top:-160px; left:-160px;" alt="Figure 5 - Hourly Distributions by Day Uber"> </iframe>
 
 
 (The purpose of this figures is to pinpoint the changes between the hourly distribution on different days. The big difference can be seen between weekdays and weekend days. On weekends the peek between 8:00 and 9:00 disappear and the peek at 19:00 decrease a bit. However, the demand of transport increase on the nights from Friday to Saturday and Saturday to Sunday increase since the people go and return from the party areas.) maybe to the general taxi part.
