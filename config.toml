@@ -5,3 +5,5 @@ theme = "ananke"
 publishDir = "docs"
 [markup.goldmark.renderer]
     unsafe = true
+[[params.customCSS]]
+ href = "css/w3.css"
