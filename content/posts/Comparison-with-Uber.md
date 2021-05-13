@@ -21,14 +21,6 @@ title: "Comparison Between Uber and Taxis"
 }
 </script>
 
-<script>
-  iframe {
-  width: 100%;
-  height: 100%;
-  max-height: 20vh;
-}
-</script>
-
 There has been debate about the different ride-hailing method in New York, since Uber arrives to the city. One of the most critical topics was about traffic congestion in the city. That concluded in a case study carried out by NYC Taxi & Limousine Commission (TLC) which thanks FiveThirtyEigh and their request regarding the law of Freedom of Information, the corresponding Uber data used for the study became public. Therefore, giving us the opportunity of analysing NYC taxis with respect to uber and highlight the underlying differences between this two similar but different transport methods.
 
 (First, a little explanation about the data. The taxi data was filtered for the same year, months present in the uber dataset and then down sampled to the same number of pickups. Therefore, balancing the dataset to be able to differentiate between the different behaviour of both ride-hailing methods. Uber dataset is composed of 3 features, latitude longitude and pickup time. Therefore, we focus on those columns also on taxis.) BAAAH TECHNICAL
@@ -58,7 +50,7 @@ If it would have been possible to also obtain data along a few years, the phenom
 
 To change a bit from those series of time distributions in bar figures, the distributions in the next figure are described with lines which can be visualize even showing several of them. Additionally, the figures are interactive. Being possible to select the distributions that one would like to visualize.
 
-<iframe src = {{< baseurl >}}/html/Lineplot_taxi.html style="width: 616px; height: 900px;" frameborder="0" scrolling="no" onload="resizeIframe(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
+<iframe src = {{< baseurl >}}/html/Lineplot_taxi.html style="width: 900px; height: 600px;" frameborder="0" scrolling="no" onload="resizeIframe(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
 
 <iframe src = {{< baseurl >}}/html/Lineplot_uber.html scrolling="no" frameborder="0" height="100%" width="100%" style="position:absolute; clip:rect(190px,1100px,800px,250px);
             top:-160px; left:-160px;" alt="Figure 5 - Hourly Distributions by Day Uber"> </iframe>
