@@ -12,4 +12,4 @@ title: "Comparison Between Uber and Taxis"
 </script>
 
 Image made by Carlos
-<iframe src = {{< baseurl >}}/dropoff_12.png style="width: 616px; height: 1000px;" frameborder="0" scrolling="no" onload="resizeIframe(this)"> </iframe>
+<iframe src = {{< baseurl >}}/dropoff_12.png style="width: 616px; height: 616px;" frameborder="0" scrolling="no" onload="resizeIframe(this)"> </iframe>
