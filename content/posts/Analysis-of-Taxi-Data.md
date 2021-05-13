@@ -1,5 +1,5 @@
 ---
-date: 2017-04-09T10:58:08-04:00
+date: 2021-05-13T09:00:59-04:00
 description: "An in depth study of the Taxi Trip Dataset"
 featured_image: "/images/taxi-times-square.jpeg"
 title: "Study of the Taxi Trip Dataset"
