@@ -11,8 +11,6 @@ title: "Comparison Between Uber and Taxis"
   }
 </script>
 
-
-# CODE FOR IMAGES
 <script>
   img {
   width: auto;

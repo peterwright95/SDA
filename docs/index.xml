@@ -13,7 +13,8 @@
       <pubDate>Thu, 13 May 2021 15:00:59 -0400</pubDate>
       
       <guid>https://peterwright95.github.io/SDA/posts/analysis-of-taxi-data/</guid>
-      <description>DUA LIPPPAAAAAAAA PORCACCCIODDDDDDIO </description>
+      <description>Through-out this article we will be analysing trends in taxi usage in New York City. We will see how usage changes during the day-month-year, so get pen and paper ready as, believe me, you don&amp;rsquo;t want to get stuck in NYC traffic!
+The working day in New York starts at 8:24 on average, we can infer from the taxi hourly distribution that the city wakes up at around 7:00 and keeps busy through-out the day until around 21:00-22:00 when taxi demand starts to decrease.</description>
     </item>
     
     <item>
@@ -22,7 +23,7 @@
       <pubDate>Thu, 13 May 2021 11:00:59 -0400</pubDate>
       
       <guid>https://peterwright95.github.io/SDA/posts/comparison-with-uber/</guid>
-      <description>function resizeIframe(obj) { obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + &#39;px&#39;; }  CODE FOR IMAGES  img { width: auto; height: 100%; max-height: 20vh; }  There has been debate about the different ride-hailing method in New York, since Uber arrives to the city. One of the most critical topics was about traffic congestion in the city. That concluded in a case study carried out by NYC Taxi &amp;amp; Limousine Commission (TLC) which thanks FiveThirtyEigh and their request regarding the law of Freedom of Information, the corresponding Uber data used for the study became public.</description>
+      <description>function resizeIframe(obj) { obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + &#39;px&#39;; }   img { width: auto; height: 100%; max-height: 20vh; }  There has been debate about the different ride-hailing method in New York, since Uber arrives to the city. One of the most critical topics was about traffic congestion in the city. That concluded in a case study carried out by NYC Taxi &amp;amp; Limousine Commission (TLC) which thanks FiveThirtyEigh and their request regarding the law of Freedom of Information, the corresponding Uber data used for the study became public.</description>
     </item>
     
     <item>
