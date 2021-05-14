@@ -5,3 +5,6 @@
 .measure-wide {
     max-width: 75em;
 }
+
+.nested-img img {
+}
