@@ -38,8 +38,7 @@ function resizeIFrameToFitContent( iFrame ) {
 
 </script>
 
-<div style="text-align: center;">
-<iframe src = "{{< baseurl >}}/html/pickupsdrop.html" > </iframe>
+<iframe src = {{< baseurl >}}/html/pickupsdrop.html style="width: 800px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 5"> </iframe>
 </div>
 
 During the first week of March all activities continued normally. It is after the lockdown when,
@@ -49,7 +48,7 @@ corresponds to these exceptions. Nevertheless, the taxi usage kept following a w
 seasonal behaviour, reaching minimums on Sundays.
 
 <div style="text-align: center;">
-<iframe src = {{< baseurl >}}/html/dailycovid.html onload="resizeIFrameToFitContent(this)" title="Figure 2"> </iframe>
+<iframe src = {{< baseurl >}}/html/dailycovid.html style="width: 800px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 5"> </iframe>
 </div>
 
 We can observe a similar behaviour if we take a look at the number of passengers per trip
@@ -63,7 +62,7 @@ passengers started increasing noticeably again. It looked like the population wa
 their scepticism towards sharing close up spaces.
 
 <div style="text-align: center;">
-<iframe src = {{< baseurl >}}/html/passengers.html onload="resizeIFrameToFitContent(this)" title="Figure 3"> </iframe>
+<iframe src = {{< baseurl >}}/html/passengers.html style="width: 800px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 5"> </iframe>
 </div>
 
 Another interesting consequence of the COVID-19 crisis can be observed in the taxi trip
@@ -76,14 +75,14 @@ noticeable spikes can also be seen at the end of the year, around Thanksgiving (
 November) and Christmas (24 December).
 
 <div style="text-align: center;">
-<iframe src = {{< baseurl >}}/html/tripdistance.html onload="resizeIFrameToFitContent(this)" title="Figure 4"> </iframe>
+<iframe src = {{< baseurl >}}/html/tripdistance.html style="width: 800px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 5"> </iframe>
 </div>
 
 The COVID-19 pandemic not only affected to the usage of public transport but also had
 important effects in the overall activity around New York City.
 
 <div style="text-align: center;">
-<iframe src = {{< baseurl >}}/html/NYC_map_joined.html style="width: 1000px; height: 1000px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 5"> </iframe>
+<iframe src = {{< baseurl >}}/html/NYC_map_joined.html style="width:950px; height: 950px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 5"> </iframe>
 </div>
 
 Taxi is a form of transport typically used by enterprise workers, with above average salaries.
