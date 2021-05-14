@@ -49,7 +49,7 @@ corresponds to these exceptions. Nevertheless, the taxi usage kept following a w
 seasonal behaviour, reaching minimums on Sundays.
 
 <div style="text-align: center;">
-<iframe src = {{< baseurl >}}/html/dailycovid.html style="width: 600px; height: 400px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 2"> </iframe>
+<iframe src = {{< baseurl >}}/html/dailycovid.html onload="resizeIFrameToFitContent(this)" title="Figure 2"> </iframe>
 </div>
 
 We can observe a similar behaviour if we take a look at the number of passengers per trip
