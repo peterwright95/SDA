@@ -8,7 +8,7 @@ title: "Study of the Taxi Trip Dataset"
 Through-out this article we will be analysing trends in taxi usage in New York City. 
 We will see how usage changes during the day-month-year, so get pen and paper ready as, believe me, you don't want to get stuck in NYC traffic!
 
-<img src="{{< baseurl >}}/images/hourly distr.png" title="Figure 1 - Hourly Distribution of Pick-Ups">
+<img src="{{< baseurl >}}/images/hourly distr.png" style="width:auto;height=100%" title="Figure 1 - Hourly Distribution of Pick-Ups">
 
 The working day in New York starts at 8:24 on average, we can infer from the taxi hourly distribution that the city wakes up at around 7:00 and keeps busy through-out the day until around 21:00-22:00 when taxi demand starts to decrease. 
 Between 13:00 and 16:00 there is a little peak, as some workers finish working around these hours or start it if they have evening shifts, and others have their lunch break. 
@@ -30,10 +30,10 @@ This is most notable between weekdays and weekends. The peak from 8:00 to 9:00 o
 
 <div class="row">
   <div class="column">
-    <img2 src="{{< baseurl >}}/images/hourly distr.png" title="Figure 2 - Weekly Distribution of Pick-Ups">
+    <img src="{{< baseurl >}}/images/hourly distr.png" title="Figure 2 - Weekly Distribution of Pick-Ups">
   </div>
   <div class="column">
-    <img2 src="{{< baseurl >}}/images/average_speed.jpeg" title="Figure 5 - Average Speed of trips">
+    <img src="{{< baseurl >}}/images/average_speed.jpeg" title="Figure 5 - Average Speed of trips">
   </div>
 </div>
 
@@ -70,18 +70,4 @@ Looking at these two images side by side we can see how taxi demand and average 
   }
 </script>
 
-<script>
-  img {
-  width: auto;
-  height: 100%;
-  max-height: 20vh;
-}
-</script>
 
-<script>
-  img2 {
-  width: auto;
-  height: 50%;
-  max-height: 20vh;
-}
-</script>
