@@ -1,3 +1,7 @@
 .w-two-thirds-l {
     width: 88%;
 }
+
+.measure-wide {
+    max-width: 50em;
+}
