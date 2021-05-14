@@ -31,8 +31,8 @@ under complete lockdown.
 
 function resizeIFrameToFitContent( iFrame ) {
 
-    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth - 5px;
-    iFrame.height = iFrame.contentWindow.document.body.scrollHeight - 5px;
+    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth - 5;
+    iFrame.height = iFrame.contentWindow.document.body.scrollHeight - 5;
     iFrame.display = block;
 }
 
