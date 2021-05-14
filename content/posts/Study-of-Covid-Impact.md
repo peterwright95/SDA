@@ -28,7 +28,7 @@ under complete lockdown.
 </script>
 
 
-<iframe src = {{< baseurl >}}/html/pickupsdrop.html style="width: 900px; height: 600px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIframe(this)"  title="Figure 1"> </iframe>
+<iframe src = {{< baseurl >}}/html/pickupsdrop.html style="width:600px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIframe(this)"  title="Figure 1"> </iframe>
 
 During the first week of March all activities continued normally. It is after the lockdown when,
 as a consequence of the lockdown we consequently see a drastic drop in taxi pickups. In the
@@ -36,7 +36,7 @@ few first months of the pandemic taxi usage was limited and the little activity 
 corresponds to these exceptions. Nevertheless, the taxi usage kept following a weekly
 seasonal behaviour, reaching minimums on Sundays.
 
-<iframe src = {{< baseurl >}}/html/dailycovid.html style="width: 900px; height: 600px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIframe(this)"  title="Figure 2 "> </iframe>
+<iframe src = {{< baseurl >}}/html/dailycovid.html style="width: 600px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIframe(this)"  title="Figure 2 "> </iframe>
 
 We can observe a similar behaviour if we take a look at the number of passengers per trip
 evolution. The most common one has always been 1 passenger trips. After the lockdown,
@@ -48,7 +48,7 @@ slowed down the number of individual taxi pickups increased. Specially the trips
 passengers started increasing noticeably again. It looked like the population was relaxing
 their scepticism towards sharing close up spaces.
 
-<iframe src = {{< baseurl >}}/html/passengers.html style="width: 900px; height: 600px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIframe(this)"  title="Figure 3 "> </iframe>
+<iframe src = {{< baseurl >}}/html/passengers.html style="width: 600px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIframe(this)"  title="Figure 3 "> </iframe>
 
 Another interesting consequence of the COVID-19 crisis can be observed in the taxi trip
 distances. It was common among the NYC citizens to use taxis as a regular way of transport
@@ -59,7 +59,7 @@ when NYC registered one of its highest peaks in COVID-19 confirmed cases. Two ot
 noticeable spikes can also be seen at the end of the year, around Thanksgiving (26
 November) and Christmas (24 December).
 
-<iframe src = {{< baseurl >}}/html/tripdistance.html style="width: 900px; height: 600px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIframe(this)"  title="Figure 4 "> </iframe>
+<iframe src = {{< baseurl >}}/html/tripdistance.html style="width: 600px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIframe(this)"  title="Figure 4 "> </iframe>
 
 The COVID-19 pandemic not only affected to the usage of public transport but also had
 important effects in the overall activity around New York City.
