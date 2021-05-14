@@ -31,14 +31,13 @@ under complete lockdown.
 
 function resizeIFrameToFitContent( iFrame ) {
 
-    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth - 5;
-    iFrame.height = iFrame.contentWindow.document.body.scrollHeight - 5;
     iFrame.display = block;
 }
 
 </script>
 
-<iframe src = {{< baseurl >}}/html/pickupsdrop.html style="width: 800px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 5"> </iframe>
+<div style="text-align: center;">
+<iframe src = {{< baseurl >}}/html/pickupsdrop.html style="width: 800px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 1"> </iframe>
 </div>
 
 During the first week of March all activities continued normally. It is after the lockdown when,
@@ -48,7 +47,7 @@ corresponds to these exceptions. Nevertheless, the taxi usage kept following a w
 seasonal behaviour, reaching minimums on Sundays.
 
 <div style="text-align: center;">
-<iframe src = {{< baseurl >}}/html/dailycovid.html style="width: 800px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 5"> </iframe>
+<iframe src = {{< baseurl >}}/html/dailycovid.html style="width: 800px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 2"> </iframe>
 </div>
 
 We can observe a similar behaviour if we take a look at the number of passengers per trip
@@ -62,7 +61,7 @@ passengers started increasing noticeably again. It looked like the population wa
 their scepticism towards sharing close up spaces.
 
 <div style="text-align: center;">
-<iframe src = {{< baseurl >}}/html/passengers.html style="width: 800px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 5"> </iframe>
+<iframe src = {{< baseurl >}}/html/passengers.html style="width: 800px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 3"> </iframe>
 </div>
 
 Another interesting consequence of the COVID-19 crisis can be observed in the taxi trip
@@ -75,7 +74,7 @@ noticeable spikes can also be seen at the end of the year, around Thanksgiving (
 November) and Christmas (24 December).
 
 <div style="text-align: center;">
-<iframe src = {{< baseurl >}}/html/tripdistance.html style="width: 800px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 5"> </iframe>
+<iframe src = {{< baseurl >}}/html/tripdistance.html style="width: 800px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 4"> </iframe>
 </div>
 
 The COVID-19 pandemic not only affected to the usage of public transport but also had
