@@ -47,7 +47,9 @@ few first months of the pandemic taxi usage was limited and the little activity 
 corresponds to these exceptions. Nevertheless, the taxi usage kept following a weekly
 seasonal behaviour, reaching minimums on Sundays.
 
-<iframe src = {{< baseurl >}}/html/dailycovid.html onload="resizeIFrameToFitContent(this)" title="Figure 2"> </iframe>
+<div style="text-align: center;">
+<iframe src = {{< baseurl >}}/html/dailycovid.html.html style="width: 600px; height: 400px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 2"> </iframe>
+</div>
 
 We can observe a similar behaviour if we take a look at the number of passengers per trip
 evolution. The most common one has always been 1 passenger trips. After the lockdown,
@@ -75,9 +77,10 @@ November) and Christmas (24 December).
 The COVID-19 pandemic not only affected to the usage of public transport but also had
 important effects in the overall activity around New York City.
 
-<iframe src = {{< baseurl >}}/html/NYC_map_joined.html onload="resizeIFrameToFitContent(this)" title="Figure 5"> </iframe>
 
-Taxi is a form of transport tipically used by enterprise workers, with above average salaries.
+<iframe src = {{< baseurl >}}/html/NYC_map_joined.html style="width: 1000px; height: 1000px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 5"> </iframe>
+
+Taxi is a form of transport typically used by enterprise workers, with above average salaries.
 As the economic crisis and increased unemployment came along the pandemic the taxi
 range of usage throughout the city changed too. Manhattan remained as the most busy
 region in New York city while the surrounding taxi activity declined. This effect was
