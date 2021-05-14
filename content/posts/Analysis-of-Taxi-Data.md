@@ -66,7 +66,9 @@ Here we can see the concentration of pick-ups (on the right) and drop-off (on th
 There is a higher concentration of pick-ups in Manhattan and the JFK and LGA airports as people use taxis to head back home after being out. Drop-offs, following the same reasoning are more spread, as people take taxis from the city center and get dropped off all over the city. 
 We can see this in the below Heat Map.
 
-
+<div style="text-align: center">
+<iframe src = {{< baseurl >}}/html/taxi_heatmap_time.html style="width: 900px; height: 600px; left.-140px" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)"  title="Heat-Map"> </iframe>
+</div>
 
 Below we can see a covariance matrix showing correlation between the variables analysed through-out the article.
 
