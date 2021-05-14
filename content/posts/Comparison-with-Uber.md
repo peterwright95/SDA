@@ -67,6 +67,12 @@ To change a bit from those series of time distributions in bar figures, the dist
 
 After a lot of time series analysis, it is time to pass to geographical data. And the first thing that was done is plotting the coordinates of every pickup of Uber and Taxis defining the density of point with intensity of colour. The result was the following.
 
+<div style="text-align: center;">
+<img src="{{< baseurl >}}/images/all_taxi_uber.png" title="Figure 5 - Uber - Taxi Pick-Ups">
+</div>
+
+The blue one is the pickups from taxis while the orange belongs to the pickups of Uber. While the taxis pickups are concentrated in Manhattan, Ubers cover a bigger area and enter deeper in the areas of Brooklyn, Queens and The Bronx. Returning to the popular debate, mentioned before, about the traffic congestion of the city centre we can infer that is not totally true that Uber is causing the slowing of Manhattan streets.
+
 
 
 
