@@ -30,10 +30,10 @@ This is most notable between weekdays and weekends. The peak from 8:00 to 9:00 o
 
 <div class="row">
   <div class="column">
-    <img src="{{< baseurl >}}/images/hourly distr.png" title="Figure 2 - Weekly Distribution of Pick-Ups">
+    <img src="{{< baseurl >}}/images/hourly distr.png" width = "50%" height = "50%" title="Figure 2 - Weekly Distribution of Pick-Ups">
   </div>
   <div class="column">
-    <img src="{{< baseurl >}}/images/average_speed.jpeg" title="Figure 5 - Average Speed of trips">
+    <img src="{{< baseurl >}}/images/average_speed.jpeg" width = "50%" height = "50%" title="Figure 5 - Average Speed of trips">
   </div>
 </div>
 
