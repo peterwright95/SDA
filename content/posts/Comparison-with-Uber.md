@@ -17,24 +17,19 @@ First, a little explanation about the data. The taxi data was filtered for the s
   }
 </script>
 
-<script>
-  img {
-  width: auto;
-  height: 100%;
-  max-height: 20vh;
-}
-</script>
 
+<script>
 function resizeIFrameToFitContent( iFrame ) {
 
     iFrame.display = block;
 }
+</script>
 
 
 As a starting point, one of the first interesting difference is found when the data is grouped hourly. The distribution of the pickups is quite different as we can visualise in the following image. 
 
 <div style="text-align: center;">
-<img src="{{< baseurl >}}/images/hourly_distributions.png" alt="Figure 1 - Hourly Pick-Up Distribution">
+<img src="{{< baseurl >}}/images/hourly_distributions.png" style="width:auto;height=100%" alt="Figure 1 - Hourly Pick-Up Distribution">
 </div>
 
 To understand what is happening in the figure we will remind the reader how Uber works. Basically, the driver chooses when to work. Therefore, it is not peculiar to see a decrease in pickups between 22:00 and 4:00, probably most of the drivers are resting. Something similar can be observed between 8:00 and 14:00. We can also see that in this window taxis increase their pickups, that is probably due to the decrease of Uber drivers working. 
@@ -44,7 +39,7 @@ These hours are not considered as peak hours hence the Uber drivers do not see t
 When grouping the data by day of week we can see something like this.
 
 <div style="text-align: center;">
-<img src="{{< baseurl >}}/images/day_distribution.png" alt="Figure 2 - Pick-Up Distribution by day of the Week">
+<img src="{{< baseurl >}}/images/day_distribution.png" style="width:auto;height=100%" alt="Figure 2 - Pick-Up Distribution by day of the Week">
 </div>
 
 From these distributions, we can observe that the busiest day is Thursday for both taxis and Ubers. On the other hand, Uber drivers get a little bit lazier on Sunday and Monday while taxi drivers do not seem to rest too much, as their pick-up distribution is roughly constant through-out the week.
@@ -52,7 +47,7 @@ From these distributions, we can observe that the busiest day is Thursday for bo
 Following the same train of thought we believed it would be interesting to see the distribution of pick-ups by month, what we got is this:
 
 <div style="text-align: center;">
-<img src="{{< baseurl >}}/images/monthly_distribution.png" alt="Figure 3 - Monthly Pick-Up Distribution">
+<img src="{{< baseurl >}}/images/monthly_distribution.png" style="width:auto;height=100%" alt="Figure 3 - Monthly Pick-Up Distribution">
 </div>
 
 
@@ -62,11 +57,11 @@ If it had been possible to also obtain data along a few years, the phenomena pre
 To change a bit from those series of time distributions in bar figures, the distributions in the next figure are described with lines which can be visualised even showing several of them. Additionally, the figures are interactive. Being possible to select the distributions that one would like to visualise.
 
 <div style="text-align: center;">
-<iframe src = {{< baseurl >}}/html/Lineplot_taxi.html style="width: 900px; height: 600px; " frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
+<iframe src = {{< baseurl >}}/html/Lineplot_taxi.html style="width: 900px; height: 420px; " frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 4 "> </iframe>
 </div>
 
 <div style="text-align: center;">
-<iframe src = {{< baseurl >}}/html/Lineplot_uber.html style="width: 900px; height: 600px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
+<iframe src = {{< baseurl >}}/html/Lineplot_uber.html style="width: 900px; height: 420px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 5 "> </iframe>
 </div>
 
 
@@ -75,7 +70,7 @@ To change a bit from those series of time distributions in bar figures, the dist
 After a lot of time series analysis, it is time to pass to geographical data. And the first thing that was done is plotting the coordinates of every pickup of Uber and Taxis defining the density of point with intensity of colour. The result was the following.
 
 <div style="text-align: center;">
-<img src="{{< baseurl >}}/images/all_taxi_uber.png" title="Figure 5 - Uber - Taxi Pick-Ups">
+<img src="{{< baseurl >}}/images/all_taxi_uber.png" style="width:auto;height=100%" title="Figure 6 - Uber - Taxi Pick-Ups">
 </div>
 
 The blue one is the pickups from taxis while the orange belongs to the pickups of Uber. While the taxis pickups are concentrated in Manhattan, Ubers cover a bigger area and enter deeper in the areas of Brooklyn, Queens and The Bronx. Returning to the popular debate, mentioned before, about the traffic congestion of the city centre we can infer that is not totally true that Uber is causing the slowing of Manhattan streets.
