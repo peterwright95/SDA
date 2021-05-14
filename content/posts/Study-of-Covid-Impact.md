@@ -38,8 +38,9 @@ function resizeIFrameToFitContent( iFrame ) {
 
 </script>
 
-
+<div style="text-align: center;">
 <iframe src = "{{< baseurl >}}/html/pickupsdrop.html" onload="resizeIFrameToFitContent(this)" title="Figure 1"> </iframe>
+</div>
 
 During the first week of March all activities continued normally. It is after the lockdown when,
 as a consequence of the lockdown we consequently see a drastic drop in taxi pickups. In the
@@ -61,7 +62,9 @@ slowed down the number of individual taxi pickups increased. Specially the trips
 passengers started increasing noticeably again. It looked like the population was relaxing
 their scepticism towards sharing close up spaces.
 
+<div style="text-align: center;">
 <iframe src = {{< baseurl >}}/html/passengers.html onload="resizeIFrameToFitContent(this)" title="Figure 3"> </iframe>
+</div>
 
 Another interesting consequence of the COVID-19 crisis can be observed in the taxi trip
 distances. It was common among the NYC citizens to use taxis as a regular way of transport
@@ -72,13 +75,16 @@ when NYC registered one of its highest peaks in COVID-19 confirmed cases. Two ot
 noticeable spikes can also be seen at the end of the year, around Thanksgiving (26
 November) and Christmas (24 December).
 
+<div style="text-align: center;">
 <iframe src = {{< baseurl >}}/html/tripdistance.html onload="resizeIFrameToFitContent(this)" title="Figure 4"> </iframe>
+</div>
 
 The COVID-19 pandemic not only affected to the usage of public transport but also had
 important effects in the overall activity around New York City.
 
-
+<div style="text-align: center;">
 <iframe src = {{< baseurl >}}/html/NYC_map_joined.html style="width: 1000px; height: 1000px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 5"> </iframe>
+</div>
 
 Taxi is a form of transport typically used by enterprise workers, with above average salaries.
 As the economic crisis and increased unemployment came along the pandemic the taxi

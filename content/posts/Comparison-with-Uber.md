@@ -26,21 +26,26 @@ There has been debate about the different ride-hailing method in New York, since
 
 As starting point, one of the first impressive differences is found when the data is grouped hourly. The distribution of the pickups was quite different as one can visualize in the figure 1. 
 
+<div style="text-align: center;">
 <img src="{{< baseurl >}}/images/hourly_distributions.png" alt="Figure 1 - Hourly Pick-Up Distribution">
+</div>
 
 To comment what happened in the figure is needed to remind to the reader how Uber works. Basically, the driver chooses when to work. Therefore, is not strange to visualize a decrease in pickups between 22:00 and 4:00, probably most of the drivers are resting. Something similar can be observed between 8:00 and 14:00. Even though in this window, taxis increase the pickups, that is probably due to the decrease of uber drivers working. These hours are not considered peak hour so that uber drivers do not see them as interesting. However, after 14:00, uber pickups start to increase till reaching its maximum at 17:00h. That phenomenon is caused, mostly, by the taxis shift change which happens at 16:00h.
 
 
 When the data is grouped by day of the week it is find something as in the figure 2.
 
+<div style="text-align: center;">
 <img src="{{< baseurl >}}/images/day_distribution.png" alt="Figure 2 - Pick-Up Distribution by day of the Week">
+</div>
 
 From these distributions, it can be observed that the busiest day is Thursday for taxis and Ubers. However, seems that Uber drivers get a little bit lazier on Sunday and Monday while those though taxi drivers do not seem to rest too much, being their pickups distribution almost the same from day to day.
 
 After reading the previous analysis, the following cannot be other than group the pickups by month obtaining the following figure. 
 
-
+<div style="text-align: center;">
 <img src="{{< baseurl >}}/images/monthly_distribution.png" alt="Figure 3 - Monthly Pick-Up Distribution">
+</div>
 
 
 
@@ -48,9 +53,13 @@ If it would have been possible to also obtain data along a few years, the phenom
 
 To change a bit from those series of time distributions in bar figures, the distributions in the next figure are described with lines which can be visualize even showing several of them. Additionally, the figures are interactive. Being possible to select the distributions that one would like to visualize.
 
+<div style="text-align: center;">
 <iframe src = {{< baseurl >}}/html/Lineplot_taxi.html style="width: 900px; height: 600px; " frameborder="0" scrolling="no" onload="resizeIframe(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
+</div>
 
+<div style="text-align: center;">
 <iframe src = {{< baseurl >}}/html/Lineplot_uber.html style="width: 900px; height: 600px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIframe(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
+</div>
 
 
 
