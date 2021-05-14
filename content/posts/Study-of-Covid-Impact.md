@@ -28,7 +28,7 @@ under complete lockdown.
 </script>
 
 
-<iframe src = {{< baseurl >}}/html/pickupsdrop.html style="width:600px; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIframe(this)"  title="Figure 1"> </iframe>
+<iframe src = {{< baseurl >}}/html/pickupsdrop.html style="width:600px; text-align:center; height: 500px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIframe(this)"  title="Figure 1"> </iframe>
 
 During the first week of March all activities continued normally. It is after the lockdown when,
 as a consequence of the lockdown we consequently see a drastic drop in taxi pickups. In the
