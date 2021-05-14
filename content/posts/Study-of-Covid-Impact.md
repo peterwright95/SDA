@@ -37,7 +37,6 @@ function resizeIFrameToFitContent( iFrame ) {
 
 window.addEventListener('DOMContentLoaded', function(e) {
 
-
     // or, to resize all iframes:
     var iframes = document.querySelectorAll("iframe");
     for( var i = 0; i < iframes.length; i++) {
@@ -48,7 +47,7 @@ window.addEventListener('DOMContentLoaded', function(e) {
 </script>
 
 
-<iframe src = "{{< baseurl >}}/html/pickupsdrop.html" title="Figure 1"> </iframe>
+<iframe src = "{{< baseurl >}}/html/pickupsdrop.html" onload="resizeIFrameToFitContent(this)" title="Figure 1"> </iframe>
 
 During the first week of March all activities continued normally. It is after the lockdown when,
 as a consequence of the lockdown we consequently see a drastic drop in taxi pickups. In the
