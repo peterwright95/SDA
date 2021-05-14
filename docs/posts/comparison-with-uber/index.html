@@ -42,7 +42,7 @@
 <meta itemprop="name" content="Comparison Between Uber and Taxis">
 <meta itemprop="description" content="A comparison of the Uber Dataset and Taxis ranging from ... to ..."><meta itemprop="datePublished" content="2021-05-13T11:00:59-04:00" />
 <meta itemprop="dateModified" content="2021-05-13T11:00:59-04:00" />
-<meta itemprop="wordCount" content="733">
+<meta itemprop="wordCount" content="742">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Comparison Between Uber and Taxis"/>
 <meta name="twitter:description" content="A comparison of the Uber Dataset and Taxis ranging from ... to ..."/>
@@ -153,7 +153,9 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><script>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>There has been debate about the different ride-hailing methods in New York, since Uber arrived to the city. One of the most critical topics regarded traffic congestion in the city. That concluded in a case study carried out by the NYC Taxi &amp; Limousine Commission (TLC). Thanks to FiveThirtyEight and their request regarding the law of Freedom of Information, the Uber data used for the study became public. In doing this, they gave us the opportunity to compare NYC taxis with respect to Uber and highlight the underlying differences between these two similar but different transport methods.</p>
+<p>First, a little explanation about the data. The taxi data was filtered for the same year, months present in the Uber dataset and then down sampled to the same number of pickups. Therefore, balancing the dataset to be able to differentiate between the different behaviour of both ride-hailing methods. Uber dataset is composed of 3 features, latitude longitude and pickup time. Therefore, we focus on those columns in the comparison with taxis.</p>
+<script>
   function resizeIframe(obj) {
     obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
   }
@@ -165,8 +167,10 @@
   max-height: 20vh;
 }
 </script>
-<p>There has been debate about the different ride-hailing methods in New York, since Uber arrived to the city. One of the most critical topics regarded traffic congestion in the city. That concluded in a case study carried out by the NYC Taxi &amp; Limousine Commission (TLC). Thanks to FiveThirtyEight and their request regarding the law of Freedom of Information, the Uber data used for the study became public. In doing this, they gave us the opportunity to compare NYC taxis with respect to Uber and highlight the underlying differences between these two similar but different transport methods.</p>
-<p>First, a little explanation about the data. The taxi data was filtered for the same year, months present in the Uber dataset and then down sampled to the same number of pickups. Therefore, balancing the dataset to be able to differentiate between the different behaviour of both ride-hailing methods. Uber dataset is composed of 3 features, latitude longitude and pickup time. Therefore, we focus on those columns in the comparison with taxis.</p>
+<p>function resizeIFrameToFitContent( iFrame ) {</p>
+<pre><code>iFrame.display = block;
+</code></pre>
+<p>}</p>
 <p>As a starting point, one of the first interesting difference is found when the data is grouped hourly. The distribution of the pickups is quite different as we can visualise in the following image.</p>
 <div style="text-align: center;">
 <img src="https://peterwright95.github.io/SDA/images/hourly_distributions.png" alt="Figure 1 - Hourly Pick-Up Distribution">
@@ -185,10 +189,10 @@ These hours are not considered as peak hours hence the Uber drivers do not see t
 <p>If it had been possible to also obtain data along a few years, the phenomena presented here would be more noticeable. The increase of Uber and decrease of taxis during these months is not caused by Uber cars having better air conditioning, which is the theory in support of the summer increase. What we can see is the constant decrease of the traditional taxi demand and an increase in demand of other ride-hailing companies.</p>
 <p>To change a bit from those series of time distributions in bar figures, the distributions in the next figure are described with lines which can be visualised even showing several of them. Additionally, the figures are interactive. Being possible to select the distributions that one would like to visualise.</p>
 <div style="text-align: center;">
-<iframe src = https://peterwright95.github.io/SDA/html/Lineplot_taxi.html style="width: 900px; height: 600px; " frameborder="0" scrolling="no" onload="resizeIframe(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
+<iframe src = https://peterwright95.github.io/SDA/html/Lineplot_taxi.html style="width: 900px; height: 600px; " frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
 </div>
 <div style="text-align: center;">
-<iframe src = https://peterwright95.github.io/SDA/html/Lineplot_uber.html style="width: 900px; height: 600px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIframe(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
+<iframe src = https://peterwright95.github.io/SDA/html/Lineplot_uber.html style="width: 900px; height: 600px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
 </div>
 <p>The distributions follow the rules highlighted in the previous analysis. Both have an increase in demand on Friday and Saturday nights and decrease around 8:00. However, Sundays change a bit on the Uber distribution. We can see an increase in the hours which we previously described as not interesting for drivers. Between 10:00 and 16:00.</p>
 <p>After a lot of time series analysis, it is time to pass to geographical data. And the first thing that was done is plotting the coordinates of every pickup of Uber and Taxis defining the density of point with intensity of colour. The result was the following.</p>

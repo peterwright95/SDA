@@ -5,6 +5,12 @@ featured_image: "/images/taxi-vs-uber.jpeg"
 title: "Comparison Between Uber and Taxis"
 ---
 
+
+
+There has been debate about the different ride-hailing methods in New York, since Uber arrived to the city. One of the most critical topics regarded traffic congestion in the city. That concluded in a case study carried out by the NYC Taxi & Limousine Commission (TLC). Thanks to FiveThirtyEight and their request regarding the law of Freedom of Information, the Uber data used for the study became public. In doing this, they gave us the opportunity to compare NYC taxis with respect to Uber and highlight the underlying differences between these two similar but different transport methods.
+
+First, a little explanation about the data. The taxi data was filtered for the same year, months present in the Uber dataset and then down sampled to the same number of pickups. Therefore, balancing the dataset to be able to differentiate between the different behaviour of both ride-hailing methods. Uber dataset is composed of 3 features, latitude longitude and pickup time. Therefore, we focus on those columns in the comparison with taxis.
+
 <script>
   function resizeIframe(obj) {
     obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
@@ -19,9 +25,10 @@ title: "Comparison Between Uber and Taxis"
 }
 </script>
 
-There has been debate about the different ride-hailing methods in New York, since Uber arrived to the city. One of the most critical topics regarded traffic congestion in the city. That concluded in a case study carried out by the NYC Taxi & Limousine Commission (TLC). Thanks to FiveThirtyEight and their request regarding the law of Freedom of Information, the Uber data used for the study became public. In doing this, they gave us the opportunity to compare NYC taxis with respect to Uber and highlight the underlying differences between these two similar but different transport methods.
+function resizeIFrameToFitContent( iFrame ) {
 
-First, a little explanation about the data. The taxi data was filtered for the same year, months present in the Uber dataset and then down sampled to the same number of pickups. Therefore, balancing the dataset to be able to differentiate between the different behaviour of both ride-hailing methods. Uber dataset is composed of 3 features, latitude longitude and pickup time. Therefore, we focus on those columns in the comparison with taxis.
+    iFrame.display = block;
+}
 
 
 As a starting point, one of the first interesting difference is found when the data is grouped hourly. The distribution of the pickups is quite different as we can visualise in the following image. 
@@ -55,11 +62,11 @@ If it had been possible to also obtain data along a few years, the phenomena pre
 To change a bit from those series of time distributions in bar figures, the distributions in the next figure are described with lines which can be visualised even showing several of them. Additionally, the figures are interactive. Being possible to select the distributions that one would like to visualise.
 
 <div style="text-align: center;">
-<iframe src = {{< baseurl >}}/html/Lineplot_taxi.html style="width: 900px; height: 600px; " frameborder="0" scrolling="no" onload="resizeIframe(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
+<iframe src = {{< baseurl >}}/html/Lineplot_taxi.html style="width: 900px; height: 600px; " frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
 </div>
 
 <div style="text-align: center;">
-<iframe src = {{< baseurl >}}/html/Lineplot_uber.html style="width: 900px; height: 600px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIframe(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
+<iframe src = {{< baseurl >}}/html/Lineplot_uber.html style="width: 900px; height: 600px; left.-140px;" frameborder="0" scrolling="no" onload="resizeIFrameToFitContent(this)" alt="Figure 4 - Hourly Distributions by Day Taxis"> </iframe>
 </div>
 
 
