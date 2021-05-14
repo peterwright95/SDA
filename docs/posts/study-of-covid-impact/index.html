@@ -42,7 +42,7 @@
 <meta itemprop="name" content="Taxis during the Covid Pandemic">
 <meta itemprop="description" content="How did the Covid Pandemic impact the use of Taxis?"><meta itemprop="datePublished" content="2021-05-13T11:00:59-04:00" />
 <meta itemprop="dateModified" content="2021-05-13T11:00:59-04:00" />
-<meta itemprop="wordCount" content="539">
+<meta itemprop="wordCount" content="559">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Taxis during the Covid Pandemic"/>
 <meta name="twitter:description" content="How did the Covid Pandemic impact the use of Taxis?"/>
@@ -172,13 +172,24 @@ under complete lockdown.</p>
   max-height: 20vh;
 }
 </script>
-<script>
-  iframe {
-  width: auto;
-  height: 100%;
-  max-height: 20vh;
-  Display: block;
+<script type="application/javascript">
+
+function resizeIFrameToFitContent( iFrame ) {
+
+    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+    iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
 }
+
+window.addEventListener('DOMContentLoaded', function(e) {
+
+
+    // or, to resize all iframes:
+    var iframes = document.querySelectorAll("iframe");
+    for( var i = 0; i < iframes.length; i++) {
+        resizeIFrameToFitContent( iframes[i] );
+    }
+} );
+
 </script>
 <iframe src = "https://peterwright95.github.io/SDA/html/pickupsdrop.html" title="Figure 1"> </iframe>
 <p>During the first week of March all activities continued normally. It is after the lockdown when,
