@@ -36,9 +36,12 @@ The yearly distribution is also interesting as we can see that in the colder mon
 Although this is an interactive plot we will give some interesting points to further analyze. In proposing it we are aiming at pinpointing the changes between the hourly distribution on different days. 
 This is most notable between weekdays and weekends. The peak from 8:00 to 9:00 on weekends disappears and also the peak at 19:00 decreases. At the same time the demand for transport increases on the Friday and Saturday nights as people need to reach and come back from the party areas in the city.
 
-INSERTA TAXI AND AVERAGE SPEED
+<div style="text-align: center; ">
+<img src="{{< baseurl >}}/images/speed_pickups.png" style="width:auto;height=100%" title="Figure 5 - Average Speed and Pickups">
+</div>
 
 Looking at these two images side by side we can see how taxi demand and average speed are inversely proportional. This is clearly due to the fact that in certain moments of the day there is more traffic and congestion, hence the trips take longer. 
+
 
 
 
