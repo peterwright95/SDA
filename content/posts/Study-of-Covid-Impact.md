@@ -93,7 +93,15 @@ the flights shut down during the pandemic it was evident the number of taxi pick
 airports would drop to almost zero.
 
 
-This is the end of the website, here is the link for the repository of all notebooks: https://github.com/S-Gutierrez/SCA
+This is the end of the website, here is the link for the repository of all notebooks: 
+- https://github.com/S-Gutierrez/SCA
+
+All data regarding taxi trips was obtained from the official data website for the City Of New York, link:
+- https://data.cityofnewyork.us/browse?q=yellow%20taxi%20trip%20data&sortBy=relevance
+
+Data regarding Uber was obtained from Kaggle, here: 
+- https://www.kaggle.com/fivethirtyeight/uber-pickups-in-new-york-city
+
 
 
 

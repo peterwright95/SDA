@@ -80,11 +80,12 @@ The values that the covariance matrix show are somehow as expected. Manhattan is
 It is interesting to observe the influence of each variable on trip_duration. The correlation is small in general, since there is a lot of variance. There is however a lot of different variables that have influence on how much it takes the taxi to arrive to destination. If we look at the figure we can observe which variables have more influence. Vendor_id has the biggest influence, out of the raw data. From the time variables, it can be seen that month and hour of the day have more influence than day of the week. 
 This to be expected, as the week distribution was stable. And as anyone can imagine latitude and longitudes play a big role too.
 
+After analysing the correlation matrix, we modeled a Random-Forest Algorithm to see if it possible to predict the distance of a trip with regards to the variables mentioned before, and the result is fairly good. Considering that it was a Kaggle competition in 2017 worth 30000$. Who knows... maybe we lost the opportunity of having a very good holiday. The figure below shows the scatter plot of the predictions versus the real values. We can see that the points are concentrated in the diagonal showing that most of the predictions were close to the real value.
+
 <div style="text-align: center; ">
 <img src="{{< baseurl >}}/images/Prediction.png" style="width:auto;height=100%" title="Figure 9 - Random Forest">
 </div>
 
-After analysing the correlation matrix, we modeled a Random-Forest Algorithm to see if it possible to predict the distance of a trip with regards to the variables mentioned before, and the result is fairly good. Considering that it was a Gaggle competition in 2017 worth 30000$. Who knows... maybe we lost the opportunity of having a very good holiday. The figure below shows the scatter plot of the predictions versus the real values. We can see that the points are concentrated in the diagonal showing that most of the predictions were close to the real value.
 
 We will further analyse the data-set in the other articles provided on the website, see you there!
 
