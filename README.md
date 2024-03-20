@@ -9,3 +9,8 @@ This project, part of the Social Data Analysis course at DTU, focuses on analyzi
 - **Impact of COVID-19**: Investigating how the pandemic affected taxi services.
 
 For a detailed exploration and findings, visit our project website: [https://peterwright95.github.io/SDA/](https://peterwright95.github.io/SDA/).
+
+###Contributors
+Peter Anthony Wright
+Carlos Marcos Torrejon
+Santiago Gutiérrez Orta
