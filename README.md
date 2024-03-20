@@ -1,9 +1,11 @@
-Taxi Usage Trends in New York City: A Social Data Analysis
-Overview
-This project, part of the Social Data Analysis course at DTU, focuses on analyzing taxi usage trends in New York City. We explore demand variations, compare taxis with Uber, and examine the COVID-19 pandemic's effects.
+# Taxi Usage Trends in NYC: A Social Data Analysis Project
 
-Key Findings
-Demand Fluctuations: Insight into how taxi demand changes over time.
-Taxis vs. Uber: Comparative analysis of usage patterns.
-COVID-19 Impact: Analysis of the pandemic's effect on taxi services.
-For more details, visit our project site: Project Website.
+## Overview
+This project, part of the Social Data Analysis course at DTU, focuses on analyzing taxi usage trends in New York City.
+
+## Key Insights
+- **Demand Fluctuations**: Analysis of how taxi demand varies over time.
+- **Comparison with Uber**: A look at usage patterns between taxis and Uber.
+- **Impact of COVID-19**: Investigating how the pandemic affected taxi services.
+
+For a detailed exploration and findings, visit our project website: [https://peterwright95.github.io/SDA/](https://peterwright95.github.io/SDA/).
